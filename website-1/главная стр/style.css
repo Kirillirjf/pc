@@ -1,0 +1,1066 @@
+@font-face {
+    font-family: 'Sanyo';
+    src: url('fonts/SANYO-CYR_0.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'sans';
+    src: url('fonts/18166.ttf') format('truetype');
+  }
+    /* <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">*/
+    *{
+    box-sizing: border-box;
+}
+body{
+width: 100%;
+    background: url(img/fon-2.png) center center no-repeat;
+    background-size: cover; 
+    padding-top: 44px;
+    margin: 0;
+}
+    /*Верхняя шапка*/
+    .container{
+        margin:  auto;
+        margin-bottom: 62px;
+    }
+    .header{
+        display: flex;
+        align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    height: 109px;
+    top: -4px;
+    background: rgba(39, 37, 37, 0.88) ;
+    }
+
+    .logo{
+        margin-top: 25px; 
+        width: 250px;
+        height: 80px; 
+        margin-left: 20px;
+    }
+    .mark{
+        width: 10px;
+        color: #ffffff;
+        height: 12px;
+        margin-right: 5px;
+    }
+    .blocks-2{
+width: 100%;
+margin-top: 20px;
+    }
+    .button{
+        display: flex;
+        align-items: center;
+        padding: 8px 16px;
+        background: transparent;
+        border: 5px solid transparent;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.0015);
+    border-radius: 2px;
+    color: #fff;
+    font-size: 24px;
+    line-height:24px;
+    }
+    .button-1{
+        display: flex;
+        align-items: center;
+        padding: 8px 16px;
+        background: transparent;
+        border: 5px solid transparent;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.0015);
+    border-radius: 2px;
+    color: #fff;
+    font-size: 24px;
+    line-height:24px;
+    }
+    .button-primary:hover{
+        border-bottom: 0px solid rgba(255, 255, 255, 0.777)
+    }
+    .button-primarys:hover{
+        border-bottom: 0px solid rgba(255, 255, 255, 0.777)
+    }
+    
+    .button-primary {
+        margin-right: 20px;
+    }
+    .without-a-line{
+        font-family: 'Sanyo';
+        color: #fff;
+        
+    }
+    .basket{
+position: absolute;
+padding-left: 241px;
+    }
+    .basket-1{
+        position: absolute;
+        margin-left: -46px;
+        margin-top: 41px;
+    }
+    .part_of_the_basket{
+        margin-top: 22px;
+        margin-left: 73px;
+    }
+
+    
+    .without-a-line-1{
+        font-family: 'Sanyo';
+        color: #fff;
+        font-size: 16px; 
+    }
+    .without-a-line-1-1{
+        font-family: 'Sanyo';
+        color: #fff;
+        font-size: 22px; 
+        margin-top: -12px;
+        margin-left: 21px;
+    }
+    .nama{
+        font-size: 15px;
+        margin-left: -45px;
+        font-family: 'Sanyo';
+    }
+
+    .button-primarys {
+        margin-right: 40px; 
+    }
+    .button-icon{
+        margin-right: 6px;
+        width: 21px;
+        height: 20px; 
+    }
+    .line-1{
+      margin-right:50px ;
+      margin-top: -1px;
+    }
+    .header-number{
+        padding-left: 78%;
+        margin-top: -32px;
+        display: flex;
+    align-items: center;
+    }
+    .blocks-1{
+        display: flex;
+justify-content: center;
+max-height: 30px;
+padding-left: 60%
+    }
+
+
+
+/*Swiper*/
+    .container-1{
+    margin:  auto;
+    }
+.servicer-image{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 117%;
+height: 810px;
+margin-top: 0px;
+position: relative;
+}
+.projects-slide {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.projects-pagination {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    margin-top: -22px;
+    margin-bottom: 145px;
+    position: relative;
+    z-index: 1;
+}
+.projects-bullet {
+    width: 19px;
+    height: 4px;
+    border: 2px solid #ffffff;
+    display: inline-block;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+.projects-bullet-active {
+	background-color: #ffffff;
+}
+.text-swiper{
+    max-width: 301px;
+    margin-top: -700px;
+    margin-left: 235px;
+    position: absolute;
+}
+.text-swiper-content{
+    max-width: 558px;
+    margin-top: -470px;
+    margin-left: 130px;
+    position: absolute;
+    color: #ffffff;
+    font-size: 30px;
+}
+.heading-swiper{
+    font-size: 40px;
+    color: #ffffff;
+}
+.green-text{
+    color: #52FF00;
+    font-family: 'NoLimits';
+}
+.Find-out-more-button{
+    margin-top: -316px;
+    margin-left: 222px;
+    position: absolute;
+    background-color: #52FF00;
+    line-height: 0;
+    padding: 0px 24px;
+    width: 300px;
+    height: 58px;
+}
+.Find-out-more{
+    color: #ffffff;
+    font-size: 32px;
+    text-decoration: none;
+}
+.line1-1{
+    margin-top: -131px;
+    width: 100%;
+    color: #ffffff;
+}
+.Find-out-more-buttons:hover {
+    box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
+  }
+  
+  .Find-out-more-buttons:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 2%;
+    width: 10%;
+    height: 100%;
+    background: linear-gradient(
+      120deg,
+      transparent,
+      rgba(146, 148, 248, 0.4),
+      transparent
+    );
+    transition: all 650ms;
+    z-index: -1;
+  }
+
+
+
+
+  
+
+
+/*специально для вас*/
+.container-2{
+    margin: auto;
+    height: 600px;
+}
+.the-text-with-the-action{
+margin-left: 100px;
+}
+.the-action{
+    margin-top: 75px;
+    color: #fff;
+    font-size: 50px;
+}
+.cards{
+    margin-top: -3px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.fons{
+    width: 500px;
+    height: 734px;
+    background: #000000;
+    border: 1px solid white;
+}
+.img-card-1{
+    width: 497px;
+    height: 300px;
+}
+
+.name-pc{
+    margin-left: 71px;
+    font-size: 23px;
+color: #ffffff;
+
+}
+.pc-description {
+    font-size: 22px;
+    color: #ffffff;
+    max-width: 301px;
+    margin-top: 15px;
+    margin-left: 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+
+.accessories{
+    margin-top: 168px;
+}
+.accessories-1{
+    color: #fff;
+    font-size: 23px;
+}
+.line-2{
+    margin-top: -5px;
+width: 100%;
+color: #ffffff;
+  }
+.types-of-components{
+display: flex;
+}
+.class-of-components{
+    margin-top: -2px;
+    margin-left: 10px;
+    height: 270px;
+    padding: 0px 0px;
+}
+.class-of-componentses{
+padding: 9px 0px;
+}
+
+.class-of-components-1{
+    margin-top: -2px;
+    margin-left: 10px;
+    height: 270px;
+}
+.components{
+    color: #fff;
+    font-size: 18px;
+}
+.line-3{
+    margin-top: 8px;
+    color: #ffffff;
+    margin-left: 63px;
+    height: 140px;
+  }
+
+  .the-learn-more-button {
+    width: 526px;
+    height: 62px;
+    position: absolute;
+    background-color: #52FF00;
+    margin-left: -280px;
+    margin-top: 68px;
+    border-top: none;
+}
+.without-a-line-2{
+    font-family: 'Sanyo';
+    color: #fff;
+    font-size: 24px; 
+    text-decoration: none;
+}
+
+
+
+    .container1{
+        margin-top: 4px;
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 100px;
+    }
+    
+    .container1 .card{
+        position: relative;
+        cursor: pointer;
+        margin-left: 45px;
+    }
+    .container1 .card-3{
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .container1 .card .face{
+        width: 525px;
+        height: 250px;
+        transition: 0.5s;
+    }
+    .container1 .card .face-3{
+        width: 525px;
+        height: 293px;
+        transition: 0.5s;
+    }
+    
+    .container1 .card .face.face1{
+        position: relative;
+        background: #000000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        transform: translateY(100px);
+        border-bottom: none;
+    }
+    
+    .container1 .card:hover .face.face1{
+        background: #080808;
+        transform: translateY(0);
+    }
+    
+    .container1 .card .face.face1 .content{
+        margin-left: 105px;
+        display: flex;
+        opacity: 0.9;
+        transition: 0.5s;
+    }
+    
+    .container1 .card:hover .face.face1 .content{
+        opacity: 1;
+    }
+    
+    .container1 .card .face.face1 .content img{
+        width: 200px;
+        height: 200px;
+        margin-left: -110px;
+    }
+    
+    .container1 .card .face.face1 .content h3{
+        margin: 10px 0 0;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    
+    .container1 .card .face-3.face2{
+        position: relative;
+        background: #000000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        box-sizing: border-box;
+        box-shadow: 0 1px 1px rgba(102, 100, 100, 0.8);
+        transform: translateY(-130px);
+        border-top: none;
+    }
+    
+    .container1 .card:hover .face-3.face2{
+        transform: translateY(0);
+    }
+    
+    .container .card .face-3.face2 .content p{
+        margin: 0;
+        padding: 0;
+    }
+    
+
+
+
+/*Почему вы выбаете нас*/
+.container-3{
+    height: 944px;
+    margin-top: 250px;
+}
+.why-do-you-choose-us{
+    height: 1140px;
+    width: 100%;
+background: #000000;
+margin-top: -5px;
+}
+.line1-2{
+    margin-top: -137px;
+    width: 100%;
+    color: #ffffff;
+}
+.why-do-you-choose-us-1{
+ color: #fff;
+ font-size: 50px ;
+ margin-left: 40%;
+ padding: 61px 0px 15px 0px;
+}
+.text1-1{
+    margin-top: 100px;
+}
+.text2-1{
+    margin-top: -15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #fff;
+    font-size: 36px;
+    line-height: 1.5;
+}
+.card-choose-us{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 20px;
+        width: 550px;
+        height: 350px;
+}
+.content-1-2{
+    display: flex;
+}
+.text2-2{
+    margin-right: 100px;
+    color: #fff;
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+
+/*подвал*/
+.container-4{
+    margin-top: -42px;
+height: 180px;
+background: #000000;
+opacity: 0.7;
+}
+.footer{
+    padding: 35px 60px;
+    background: #ffffff;
+}
+.footer-logo{
+    margin-left: 66px;
+    margin-top: 45px;
+    width: 300px;
+    height: 110px;
+}
+.footer-block{
+    display: flex;
+    align-items: center;
+}
+.button-text{ 
+    border-radius: 2px;
+    color: #fff;
+    font-size: 24px;
+    line-height:40px;
+    text-decoration: none;
+}
+.pillars{
+    align-items: flex-start;
+    display: block;
+    flex-wrap: nowrap;
+    width: 280px;
+    line-height: 35px;
+}
+.contacts{
+    height: 52px;
+    width: 360px;
+}
+.social-links{
+    display: block;
+    margin-right: 100px;
+}
+.center-section{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 1200px;
+    align-items: center;
+}
+.footer-nav{
+    margin-left: auto;
+    margin-right: auto;
+        justify-content: space-between;
+            max-width: 280px;
+}
+.footer-nav-1{
+    margin-left: auto;
+    margin-right: auto;
+        justify-content: space-between;
+            max-width: 500px;
+}
+.footer-link{
+    display: inline-block;
+    color: #ffffff;
+font-size: 24px;
+line-height: 21px;
+    text-decoration: none;
+
+}
+.footer-link:hover{
+    border-bottom: 2px solid rgb(116, 115, 115)
+}
+
+.content-3{
+    display: flex;
+}
+.social-link-1{
+    margin-right: 20px;
+}
+.social-link-2{
+    margin-right: 20px;
+}
+.line1-3{
+
+    width: 100%;
+    color: #ffffff;
+}
+
+
+@media(max-width: 2200px){
+    /*Swiper*/
+    .servicer-image {
+        width: 125%;
+    }
+    }
+    @media(max-width: 2100px){
+        .line-1 {
+            margin-right: 50px;
+        }
+        }
+    
+        @media(max-width: 2024px){
+            .line-1 {
+                margin-right: 55px;
+            }
+            .basket {
+                padding-left: 203px;
+            }
+            }
+
+    @media(max-width: 1908px){
+        /*шапка*/
+        .blocks-1 {
+            padding-left: 55%;
+        }
+        .header-number {
+            padding-left: 74%;
+        }
+        .card-choose-us {
+            width: 550px;
+            height: 327px;
+        }
+        .line-1 {
+            margin-right: 95px;
+        }
+    
+    
+        /*предложения*/
+        .the-learn-more-button {
+            height: 62px;
+        }
+    
+    
+    /*Почему вы выбаете нас:*/
+        .why-do-you-choose-us {
+            height: 947px;
+        }
+        .text2-1 {
+            font-size: 34px;
+        }
+        .text2-2 {
+            font-size: 34px;
+        }
+    
+    
+        /*подвал*/
+            .container-4 {
+            margin-top: -184px;
+        }
+        .social-links {
+            margin-right: 156px;
+        }
+        .social-links {
+            margin-right: 65px;
+        }
+        .contacts {
+            width: 400px;
+        }
+    
+    }
+    @media(max-width: 1882px){
+    /*Swiper*/
+        .servicer-image {
+            width: 112%;
+        }
+    /*Почему вы выбаете нас:*/
+            .text2-1 {
+            font-size:29px;
+        }
+        .text2-2 {
+            font-size: 29px;
+        }
+        .card-choose-us {
+            width: 450px;
+            height: 238px;
+        }
+        .why-do-you-choose-us-1 {
+            font-size: 45px;
+            margin-left: 40%;
+        }
+        /*подвал*/
+            .container-4 {
+            margin-top: -188px;
+        }
+        .container-3{
+            height: 930px;
+            margin-top: 165px;
+        }
+        .footer-logo {
+            margin-top: 27px;
+    }
+    }
+    @media(max-width: 1737px){
+        /*шапка*/
+        .blocks-1 {
+            padding-left: 50%;
+        }
+        .header-number {
+            padding-left: 68%;
+        }
+        .line-1 {
+            margin-right: 75px;
+        }
+        .basket {
+            padding-left: 260px;
+        }
+    
+    
+    /*Swiper*/
+    .servicer-image {
+    height: 715px;
+    }
+    .img-card-1 {
+        width: 446px;
+    }
+
+    
+    
+    /*Почему вы выбаете нас:*/
+    .text2-1 {
+        font-size: 27px;
+    }
+    .text2-2 {
+        font-size: 27px;
+    }
+    .card-choose-us {
+        .card-choose-us {
+            width: 430px;
+            height: 219px;
+        }
+    }
+    
+    }
+
+    @media(max-width: 1797px){
+        /*предложения*/
+        .container1 .card .face {
+            width: 460px;
+        }
+        .container1 .card .face-3 {
+            width: 460px;
+        }
+        .the-learn-more-button {
+            width: 461px;
+            margin-left: -250px;
+            margin-top: 46px;
+        }
+        .pc-description {
+            font-size: 19px;
+        }
+        .name-pc {
+            margin-left: 28px;
+        }
+        
+    }
+    
+    @media(max-width: 1601px){
+        /*предложения*/
+        .container1 .card .face {
+            width: 420px;
+        }
+        .container1 .card .face-3 {
+            width: 420px;
+        }
+        .the-learn-more-button {
+            width: 422px;
+            margin-left: -227px;
+            margin-top: 48px;
+        }
+        .line-3 {
+            margin-left: 49px;
+        }
+        .pc-description {
+            font-size: 19px;
+        }
+    }
+    
+
+    @media(max-width: 1563px){
+    .basket {
+        padding-left: 240px;
+    }
+    .line-1 {
+        margin-right: 75px;
+    }
+    }
+    @media(max-width: 1538px){
+        /*шапка*/
+        .blocks-1 {
+            padding-left: 47%;
+        }
+        .header-number {
+            padding-left: 68%;
+        }
+        .without-a-line-1 {
+            font-size: 14px;
+        }
+        .without-a-line {
+            font-size: 18px;
+        }
+    
+    
+        /*Swiper*/
+    .servicer-image {
+        height: 700px;
+        }
+    
+    /*предложения*/
+    .the-action {
+        font-size: 45px;
+    }
+    /*Почему вы выбаете нас:*/
+        .why-do-you-choose-us-1 {
+            font-size: 41px;
+            padding: 35px 0px 45px 0px;
+        }
+        .card-choose-us {
+            width: 450px;
+            height: 238px;
+    
+        }
+        .text2-1 {
+            font-size: 24px;
+        }
+        .text2-2 {
+            font-size: 24px;
+        }
+        .why-do-you-choose-us {
+            height: 846px;
+        }
+    
+            /*подвал*/
+            .container-4 {
+                margin-top: -188px;
+            }
+            .container-3{
+                height: 855px;
+            }
+    
+    }
+    @media(max-width: 1521px){
+        .basket {
+            padding-left: 200px;
+        }
+        }
+
+    @media(max-width: 1487px){
+    
+        /*Swiper*/
+        .servicer-image {
+            height: 666px;
+            }
+            .heading-swiper {
+                font-size: 32px;
+            }
+            .text-swiper-content {
+                margin-top: -419px;
+                font-size: 26px;
+            }
+            .Find-out-more {
+                font-size: 29px;
+            }
+            .text-swiper {
+                margin-top: -574px;;
+            }
+        .Find-out-more-button {
+            margin-top: -305px;
+            margin-left: 224px;
+            padding: 0px 14px;
+        }
+    
+    
+    }
+    @media(max-width: 1395px){
+        .basket {
+            padding-left: 177px;
+        }
+        }
+    @media(max-width: 1343px){
+    
+            /*шапка*/
+            .blocks-1 {
+                padding-left: 41%;
+            }
+            .header-number {
+                padding-left: 64%;
+            }
+    
+        /*Swiper*/
+        .servicer-image {
+            height: 600px;
+            }
+            .heading-swiper {
+                font-size: 24px;
+            }
+            .text-swiper-content {
+                max-width: 455px;
+                margin-top: -416px;
+                font-size: 22px;
+            }
+            .Find-out-more {
+                font-size: 22px;
+            }
+            .text-swiper {
+                max-width: 200px;
+                margin-top: -527px;;
+            }
+        .Find-out-more-button {
+            margin-top: -327px;
+            margin-left: 223px;
+            padding: 0px 14px;
+            width: 200px;
+            height: 42px;
+        }
+    
+    /*предложения*/
+        .the-action {
+            font-size: 39px;
+        }
+    
+    /*Почему вы выбаете нас:*/
+    .why-do-you-choose-us {
+        height: 845px;
+    }
+    .why-do-you-choose-us-1 {
+        font-size: 39px;
+    }
+    .card-choose-us {
+        width: 425px;
+        height: 258px;
+        margin-top: 13px;
+    }
+    .text2-1 {
+        font-size: 23px;
+    }
+    .text2-2 {
+        font-size: 23px;
+    }
+            /*подвал*/
+            .container-4 {
+                margin-top: -140px;
+                height: 170px;
+            }
+            .container-3 {
+                height: 865px;
+            }
+            .footer-logo {
+                margin-left: 27px;
+                margin-top: 25px;
+                width: 214px;
+                height: 86px;
+            }
+            .button-text {
+                font-size: 19px;
+            }
+            .footer-link {
+                font-size: 19px;
+            }
+            .contacts {
+                width: 279px;
+            }
+    }
+    @media(max-width: 1200px){
+        .container-3 {
+            height: 845px;
+        }
+    }
+    
+    
+    @media(max-width: 1480px){
+        .fons1{
+            margin-top: -74px;
+        }
+    }
+
+
+
+
+
+
+    @media(max-width: 2184px){
+        .container1 {
+            margin-left: 9%;
+        }
+    }
+    @media(max-width: 2084px){
+        .container1 {
+            margin-left: 6%;
+        }
+    }
+    @media(max-width: 1984px){
+        .container1 {
+            margin-left: 4%;
+        }
+    }
+    @media(max-width: 1884px){
+        .container1 {
+            margin-left: 1%;
+        }
+    }
+    @media(max-width: 1797px){
+        .container1 {
+            margin-left: 5%;
+        }
+    }
+    @media(max-width: 1697px){
+        .container1 {
+            margin-left: 2%;
+        }
+    }
+    @media(max-width: 1628px){
+        .container1 {
+            margin-left: 1.5%;
+        }
+    }
+    @media(max-width: 1601px){
+        .container1 {
+            margin-left: 4%;
+        }
+    }
+    @media(max-width: 1550px){
+        .container1 {
+            margin-left: 2%;
+        }
+    }
+    @media(max-width: 1500px){
+        .container1 {
+            margin-left: 0%;
+        }
+    }
+    @media(max-width: 1450px){
+        .container1 {
+            margin-left: -1%;
+        }
+    }
+    @media(max-width: 1425px){
+        .container1 {
+            margin-left: -2%;
+        }
+    }
+
+    @media (max-width: 1380px) {
+.container1 {
+    margin-left: 3%;
+    margin-right: 7%;
+}
+}
+@media (max-width: 1380px) {
+    .container-2 {
+        height: 1150px;
+    }
+    }

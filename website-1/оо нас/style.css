@@ -1,0 +1,567 @@
+@font-face {
+    font-family: 'NoLimits';
+    src: url('fonts/No\ Limits\(FONT\ BY\ LYAJKA\).ttf') format('truetype');
+    font-family: 'Radiotechnika';
+    src: url('fonts/Radiotechnika.otf') format('truetype');
+    font-family: 'Sanyo';
+    src: url('fonts/SANYO-CYR_0.ttf') format('truetype');
+  }
+    /* <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">*/
+    *{
+    box-sizing: border-box;
+}
+body{
+width: 100%;
+background: black;
+     background-size: cover;
+    padding-top: 44px;
+    margin: 0;
+}
+    /*Верхняя шапка*/
+    .container{
+        margin:  auto;
+        margin-bottom: 62px;
+    }
+    .header{
+        display: flex;
+        align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    height: 109px;
+    top: -4px;
+    background: rgba(39, 37, 37, 0.88) ;
+    }
+
+    .logo{
+        margin-top: 25px; 
+        width: 250px;
+        height: 80px; 
+        margin-left: 20px;
+    }
+    .mark{
+        width: 10px;
+        color: #ffffff;
+        height: 12px;
+        margin-right: 5px;
+    }
+    .blocks-2{
+width: 100%;
+margin-top: 20px;
+    }
+    .button{
+        display: flex;
+        align-items: center;
+        padding: 8px 16px;
+        background: transparent;
+        border: 5px solid transparent;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.0015);
+    border-radius: 2px;
+    color: #fff;
+    font-size: 24px;
+    line-height:24px;
+    }
+    .button-1{
+        display: flex;
+        align-items: center;
+        padding: 8px 16px;
+        background: transparent;
+        border: 5px solid transparent;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.0015);
+    border-radius: 2px;
+    color: #fff;
+    font-size: 24px;
+    line-height:24px;
+    }
+    .button-primary:hover{
+        border-bottom: 0px solid rgba(255, 255, 255, 0.777)
+    }
+    .button-primarys:hover{
+        border-bottom: 0px solid rgba(255, 255, 255, 0.777)
+    }
+    
+    .button-primary {
+        margin-right: 20px;
+    }
+    .without-a-line{
+        font-family: 'Sanyo';
+        color: #fff;
+        
+    }
+    .basket{
+position: absolute;
+padding-left: 241px;
+    }
+    .basket-1{
+        position: absolute;
+        margin-left: -46px;
+        margin-top: 41px;
+    }
+    .part_of_the_basket{
+        margin-top: 22px;
+        margin-left: 73px;
+    }
+
+    
+    .without-a-line-1{
+        font-family: 'Sanyo';
+        color: #fff;
+        font-size: 16px; 
+    }
+    .without-a-line-1-1{
+        font-family: 'Sanyo';
+        color: #fff;
+        font-size: 22px; 
+        margin-top: -12px;
+        margin-left: 21px;
+    }
+    .nama{
+        font-family: 'Sanyo';
+        font-size: 15px;
+        margin-left: -45px;
+    }
+
+    .button-primarys {
+        margin-right: 40px; 
+    }
+    .button-icon{
+        margin-right: 6px;
+        width: 21px;
+        height: 20px; 
+    }
+    .line-1{
+      margin-right:50px ;
+      margin-top: -1px;
+    }
+    .header-number{
+        padding-left: 78%;
+        margin-top: -32px;
+        display: flex;
+    align-items: center;
+    }
+    .blocks-1{
+        display: flex;
+justify-content: center;
+max-height: 30px;
+padding-left: 60%
+    }
+
+
+
+
+
+
+
+/*Почему вы выбаете нас*/
+.container-3{
+    height: 900px;
+    margin-top: 100px;
+}
+.why-do-you-choose-us{
+    height: 1140px;
+    width: 100%;
+margin-top: -5px;
+}
+.line1-2{
+    margin-top: -137px;
+    width: 100%;
+    color: #ffffff;
+}
+.why-do-you-choose-us-1{
+ color: #fff;
+ font-size: 52px ;
+ margin-left: 40%;
+ padding: 54px 0px;
+}
+.card-choose-us{
+    margin-left: 66px;
+    width: 600px;
+    height: 383px;
+}
+
+.card-choose-us-1{
+    margin-right: 66px;
+    width: 600px;
+    height: 383px;
+}
+.content-1-2{
+    display: flex;
+}
+.content-1-3{
+    display: flex;
+}
+.black-background{
+    background: #000;
+    width: 66%;
+    margin-left: 10px;
+    opacity: 0.9;
+}
+.black-background-1{
+    background: #000;
+    width: 66%;
+    margin-left: 66px;
+    margin-right: 14px;
+    opacity: 0.9;
+}
+
+.text2-2{
+    margin-left: 40px;
+    color: #fff;
+    font-size: 26px;
+    line-height: 1.5;
+    margin-right: 30px;
+}
+.text2-3{
+    margin-left: 30px;
+    color: #fff;
+    font-size: 26px;
+    line-height: 1.5;
+    margin-right: 40px;
+}
+
+/*подвал*/
+.container-4{
+    margin-top: 144px;
+height: 180px;
+background: #000000;
+opacity: 0.7;
+}
+.footer{
+    padding: 35px 60px;
+    background: #ffffff;
+}
+.footer-logo{
+    margin-left: 66px;
+    margin-top: 45px;
+    width: 300px;
+    height: 110px;
+}
+.footer-block{
+    display: flex;
+    align-items: center;
+}
+.button-text{ 
+    border-radius: 2px;
+    color: #fff;
+    font-size: 24px;
+    line-height:40px;
+    text-decoration: none;
+}
+.pillars{
+    align-items: flex-start;
+    display: block;
+    flex-wrap: nowrap;
+    width: 280px;
+    line-height: 35px;
+}
+.contacts{
+    height: 52px;
+}
+.social-links{
+    display: block;
+    margin-right: 66px;
+}
+.center-section{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 1200px;
+    align-items: center;
+}
+.footer-nav{
+    margin-left: auto;
+    margin-right: auto;
+        justify-content: space-between;
+            max-width: 280px;
+}
+.footer-nav-1{
+    margin-left: auto;
+    margin-right: auto;
+        justify-content: space-between;
+            max-width: 500px;
+}
+.footer-link{
+    display: inline-block;
+    color: #ffffff;
+font-size: 24px;
+line-height: 21px;
+    text-decoration: none;
+
+}
+.footer-link:hover{
+    border-bottom: 2px solid rgb(116, 115, 115)
+}
+
+.content-3{
+    display: flex;
+}
+.social-link-1{
+    margin-right: 20px;
+}
+.social-link-2{
+    margin-right: 20px;
+}
+.line1-3{
+
+    width: 100%;
+    color: #ffffff;
+}
+
+
+
+
+@media(max-width: 1908px){
+
+    /*шапка*/
+    .blocks-1 {
+        padding-left: 55%;
+    }
+    .header-number {
+        padding-left: 74%;
+    }
+
+    /*подвал*/
+        .container-4 {
+        margin-top: 250px;
+    }
+    .social-links {
+        margin-right: 156px;
+    }
+    .social-links {
+        margin-right: 65px;
+    }
+    .contacts {
+        width: 400px;
+    }
+
+}
+@media(max-width: 1882px){
+    .text2-2 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    .text2-3 {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+
+
+    /*подвал*/
+        .container-4 {
+        margin-top: 133px;
+    }
+}
+@media(max-width: 1737px){
+    /*шапка*/
+    .blocks-1 {
+        padding-left: 50%;
+    }
+    .header-number {
+        padding-left: 68%;
+    }
+
+}
+
+@media(max-width: 1682px){
+    .why-do-you-choose-us-1 {
+        font-size: 46px;
+    }
+
+    .text2-2 {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+    .text2-3 {
+        font-size: 22px;
+        margin-top: 10px;
+    }
+}
+@media(max-width: 1575px){
+    .card-choose-us{
+        width: 500px;
+        height: 400px;
+    }
+    .card-choose-us-1{
+        width: 500px;
+        height: 400px;
+    }
+
+    .text2-2 {
+        font-size: 21px;
+        margin-top: 20px;
+    }
+    .text2-3 {
+        font-size: 21px;
+        margin-top: 10px;
+    }
+}
+
+@media(max-width: 1538px){
+    .text2-2 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .text2-3 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+
+    /*шапка*/
+    .blocks-1 {
+        padding-left: 47%;
+    }
+    .header-number {
+        padding-left: 68%;
+    }
+    .without-a-line-1 {
+        font-size: 14px;
+    }
+    .without-a-line {
+        font-size: 18px;
+    }
+
+
+}
+
+@media(max-width: 1428px){
+    .text2-2 {
+        font-size: 19px;
+
+    }
+    .text2-3 {
+        font-size: 19px;
+    }
+    .card-choose-us {
+        width: 450px;
+        height: 350px;
+    }
+    .card-choose-us-1 {
+        width: 450px;
+        height: 350px;
+    }
+
+}
+
+@media(max-width: 1410px){
+    .container-3 {
+        height: 1200px;
+    }
+
+    .text2-2 {
+        font-size: 18px;
+    }
+    .text2-3 {
+        font-size: 18px;
+    }
+        /*подвал*/
+        .container-4 {
+            margin-top: -180px;
+        }
+}
+
+@media(max-width: 1343px){
+
+        /*подвал*/
+        .container-4 {
+            height: 160px;
+        }
+        .footer-logo {
+            margin-left: 27px;
+            margin-top: 25px;
+            width: 214px;
+            height: 86px;
+        }
+        .button-text {
+            font-size: 19px;
+        }
+        .footer-link {
+            font-size: 19px;
+        }
+        .contacts {
+            width: 279px;
+        }
+
+}
+
+@media(max-width: 1343px){
+    /*шапка*/
+    .blocks-1 {
+        padding-left: 41%;
+    }
+    .header-number {
+        padding-left: 64%;
+    }
+}
+
+@media(max-width: 1275px){
+    .text2-2 {
+        font-size: 17px;
+        margin-top: 20px;
+    }
+    .text2-3 {
+        font-size: 17px;
+    }
+}
+
+
+
+
+
+@media(max-width: 2100px){
+    .line-1 {
+        margin-right: 50px;
+    }
+    }
+
+    @media(max-width: 2024px){
+        .line-1 {
+            margin-right: 55px;
+        }
+        .basket {
+            padding-left: 203px;
+        }
+        }
+        @media(max-width: 1908px){    
+            .line-1 {
+                margin-right: 95px;
+            }
+        }
+
+
+        @media(max-width: 1737px){
+            /*шапка*/
+            .blocks-1 {
+                padding-left: 50%;
+            }
+            .header-number {
+                padding-left: 68%;
+            }
+            .line-1 {
+                margin-right: 75px;
+            }
+            .basket {
+                padding-left: 260px;
+            }
+        }
+        @media(max-width: 1563px){
+            .basket {
+                padding-left: 240px;
+            }
+            .line-1 {
+                margin-right: 75px;
+            }
+            }
+            @media(max-width: 1521px){
+                .basket {
+                    padding-left: 200px;
+                }
+                }
+                @media(max-width: 1395px){
+                    .basket {
+                        padding-left: 177px;
+                    }
+                    }
